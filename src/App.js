@@ -1,24 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+
+import { Route, Routes } from 'react-router-dom';
+import Home from './sections/Home'
+import Signin from './sections/Signin';
+import './styles.css'
+import { StateProvider } from './StateProvider';
+import reducer, { initalState } from './reducer';
+import { useStateValue } from './StateProvider';
 
 function App() {
+  const [{user},dispatch] = useStateValue()
+  console.log(user)
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    {/* <StateProvider reducer={reducer} initalState={initalState}> */}
+      {/* <Routes> */}
+          {/* <Route path='/' element={<Signin/>}/>
+          <Route path='home' element={<Home/>} /> */}
+          { user ? <Home/>  : <Signin/>}
+          
+          
+      {/* </Routes> */}
+     {/* </StateProvider> */}
+    </>
+
   );
 }
 
