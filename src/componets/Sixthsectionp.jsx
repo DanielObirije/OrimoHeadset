@@ -20,7 +20,7 @@ function Sixthsectionp() {
                             <h3 className="products__title">Black</h3>
                             <span className="products__price">$249</span>
     
-                            <button className="button-cart button--flex products__button">
+                            <button className=" products__button">
                                 <i class="uil uil-shopping-bag button--icon"></i>
                             </button>
                         </div>
@@ -32,7 +32,7 @@ function Sixthsectionp() {
                             <h3 className="products__title">Red Black</h3>
                             <span className="products__price">$249</span>
     
-                            <button className="button-cart button--flex products__button">
+                            <button className=" products__button">
                                <i class="uil uil-shopping-bag button--icon"></i>
                             </button>
                         </div>
@@ -44,7 +44,7 @@ function Sixthsectionp() {
                             <h3 className="products__title">Night Black</h3>
                             <span className="products__price">$249</span>
     
-                            <button className="button-cart button--flex products__button">
+                            <button className=" products__button">
                                <i class="uil uil-shopping-bag button--icon"></i>
                             </button>
                         </div>
@@ -56,7 +56,7 @@ function Sixthsectionp() {
                             <h3 className="products__title">Blue</h3>
                             <span className="products__price">$249</span>
     
-                            <button className="button-cart button--flex products__button">
+                            <button className=" products__button">
                                <i class="uil uil-shopping-bag button--icon"></i>
                             </button>
                         </div>
@@ -69,7 +69,7 @@ function Sixthsectionp() {
                             <h3 className="products__title">Twilight gray</h3>
                             <span className="products__price">$249</span>
     
-                            <button className="button-cart button--flex products__button">
+                            <button className=" products__button">
                                <i class="uil uil-shopping-bag button--icon"></i>
                             </button>
                         </div>

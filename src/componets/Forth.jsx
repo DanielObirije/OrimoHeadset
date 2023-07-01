@@ -15,7 +15,7 @@ function Forth() {
                     store it whenever you want, and keep your durability forever.
                 </p>
                 <button className="button button--flex">
-                   <i class="uil uil-info-circle info-img"></i> More info
+                   <i class="uil uil-info-circle info-img"></i>..More
                 </button>
                 
             </div>

@@ -4,6 +4,8 @@ import { signInWithPopup } from 'firebase/auth'
 // import { useNavigate } from 'react-router-dom'
 import { useStateValue } from '../StateProvider'
 import { actionTypes } from '../reducer'
+import logo from '../img/Oraimo.png'
+
 function Signin() {
 
   // const navigate = useNavigate()
@@ -20,9 +22,10 @@ function Signin() {
   return (
     
     <div className='login-container'>
-      <h2 >Sign-in with Google To Containe</h2>
-       <div className='button button--flex' onClick={signinwithGoogle}  >
-          <span>Sign In With Google</span>
+      <img src={logo}/>
+
+       <div className='signinbutton' onClick={signinwithGoogle}  >
+          <span >Sign In With Google</span>
        </div>
     
     </div>
